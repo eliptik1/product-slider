@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #root {
+        padding: 0 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 4) - 12px);
+    }    
+    
+    @media screen and (max-width: 1350px) {
+        .wrapper .carousel {
+             grid-auto-columns: calc((100% / 3) - 9px);
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        .wrapper .carousel {
+             grid-auto-columns: calc((100% / 2) - 9px);
+        }
+    }
+    @media screen and (max-width: 700px) {
+        .wrapper .carousel {
+             grid-auto-columns: 100%;
+        }
+    }
+}
