@@ -18,6 +18,10 @@
     .wrapper .carousel {
         grid-auto-columns: calc((100% / 4) - 12px);
     }    
+    .carousel.dragging {
+        scroll-snap-type: none;
+        scroll-behavior: auto;
+    }
     
     @media screen and (max-width: 1350px) {
         .wrapper .carousel {
