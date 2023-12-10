@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/product-slider/static/css/main.bb351f2e.css",
+    "main.js": "/product-slider/static/js/main.35049c2f.js",
+    "static/media/Montserrat-Medium.ttf": "/product-slider/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
+    "static/media/Avenir-Book.ttf": "/product-slider/static/media/Avenir-Book.45721c895eddd5961b80.ttf",
+    "static/media/EG009-R.jpg": "/product-slider/static/media/EG009-R.0d5682a803a0b154ad67.jpg",
+    "static/media/EG009-Y.jpg": "/product-slider/static/media/EG009-Y.26b853c0d904ef353ff4.jpg",
+    "static/media/EG022-100P-R.jpg": "/product-slider/static/media/EG022-100P-R.26198ff8f35f4afcc1c7.jpg",
+    "static/media/EG022-100P-Y.jpg": "/product-slider/static/media/EG022-100P-Y.555923ad1183158f3c4d.jpg",
+    "static/media/EG009-W.jpg": "/product-slider/static/media/EG009-W.472fe19494490d214d19.jpg",
+    "static/media/EG022-100P-W.jpg": "/product-slider/static/media/EG022-100P-W.aee7fe2466ebf0a96227.jpg",
+    "static/media/EG074-200P-R.jpg": "/product-slider/static/media/EG074-200P-R.4f7a0e5ed9a793523422.jpg",
+    "static/media/EG074-200P-Y.jpg": "/product-slider/static/media/EG074-200P-Y.3fac30f1c2bc297de6e3.jpg",
+    "static/media/EG075-200P-R.jpg": "/product-slider/static/media/EG075-200P-R.8f7d2659232672af6642.jpg",
+    "static/media/EG012-R.jpg": "/product-slider/static/media/EG012-R.c5482170c3f1c85c0e3c.jpg",
+    "static/media/EG012-Y.jpg": "/product-slider/static/media/EG012-Y.ff4d33b93fa418001582.jpg",
+    "static/media/EG075-200P-Y.jpg": "/product-slider/static/media/EG075-200P-Y.c78bebfb29154266a658.jpg",
+    "static/media/EG115-100P-R.jpg": "/product-slider/static/media/EG115-100P-R.3cbd5373639a5c3b8b6c.jpg",
+    "static/media/EG094-200P-R.jpg": "/product-slider/static/media/EG094-200P-R.6db0b62b342e523750b0.jpg",
+    "static/media/EG115-100P-Y.jpg": "/product-slider/static/media/EG115-100P-Y.f504bd14a8f5dbdfc018.jpg",
+    "static/media/EG094-200P-Y.jpg": "/product-slider/static/media/EG094-200P-Y.aae9a105bc29f49e3349.jpg",
+    "static/media/EG020-200P-R.jpg": "/product-slider/static/media/EG020-200P-R.9f5994e51d8ccca928d5.jpg",
+    "static/media/EG020-200P-Y.jpg": "/product-slider/static/media/EG020-200P-Y.8621191eb09de34b622e.jpg",
+    "static/media/EG075-200P-W.jpg": "/product-slider/static/media/EG075-200P-W.1c87964ee62d410bdce1.jpg",
+    "static/media/EG012-W.jpg": "/product-slider/static/media/EG012-W.4727260f96c3b63b4e8d.jpg",
+    "static/media/EG020-200P-W.jpg": "/product-slider/static/media/EG020-200P-W.ec44ccee88b7c97ee0de.jpg",
+    "static/media/EG094-200P-W.jpg": "/product-slider/static/media/EG094-200P-W.a87265a24d9c66dfee19.jpg",
+    "static/media/EG115-100P-W.jpg": "/product-slider/static/media/EG115-100P-W.e2a15b04a1b7ed81d9bc.jpg",
+    "static/media/EG074-100P-W.jpg": "/product-slider/static/media/EG074-100P-W.1083d1fdb04a843ccb3c.jpg",
+    "static/media/solar_wallet-money-linear.svg": "/product-slider/static/media/solar_wallet-money-linear.11046c5243695b042be4b95eca45c89a.svg",
+    "index.html": "/product-slider/index.html",
+    "main.bb351f2e.css.map": "/product-slider/static/css/main.bb351f2e.css.map",
+    "main.35049c2f.js.map": "/product-slider/static/js/main.35049c2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb351f2e.css",
+    "static/js/main.35049c2f.js"
+  ]
+}
