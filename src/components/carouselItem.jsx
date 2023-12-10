@@ -4,10 +4,10 @@ export const CarouselItem = ({item, selectedColor, onColorChange}) => {
     return (
     <li className="card snap-start flex flex-col justify-center items-center w-full  ">
         <div>
-            <img className="w-[250px] h-[250px] object-cover select-none rounded-xl mt-14" src={item.image[selectedColor]} alt="image" draggable="false" />
+            <img className="w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] object-cover select-none rounded-xl mt-14" src={item.image[selectedColor]} alt="image" draggable="false" />
             <div>
-                <h2 className="mt-2">{item.description}</h2>
-                <span>{item.price}</span>
+                <h2 className="mt-2 font-montserrat text-[15px]">{item.description}</h2>
+                <span className="font-montserrat text-[17px]">{item.price}</span>
             </div>
 
             <div className="color-buttons flex gap-4">
@@ -17,13 +17,13 @@ export const CarouselItem = ({item, selectedColor, onColorChange}) => {
                 onClick={() => onColorChange(color)}
                 className={
                     `w-5 h-5 rounded-[50%] mt-5
-                    ${index === 0 ? 'bg-[#E6CA97]' : index === 1 ? 'bg-[#D9D9D9]' : 'bg-[#E1A4A9]'}
+                    ${index === 0 ? 'bg-[#E6CA97] hover:bg-[#e1c284]' : index === 1 ? 'bg-[#D9D9D9] hover:bg-[#cdcdcd]' : 'bg-[#E1A4A9] hover:bg-[#e29398]'}
                     ${color === selectedColor ? 'circle-border' : ''}`}
                 >
             </button>
         ))}
         </div>
-        <div className="mb-10 mt-2">
+        <div className="mb-10 mt-4 font-avenir text-xs">
             {selectedColor === "yellow" ? "Yellow Gold" : selectedColor === "white" ? "White Gold" : "Rose Gold" }
         </div>
         </div>

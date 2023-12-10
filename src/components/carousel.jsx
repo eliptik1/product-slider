@@ -137,10 +137,10 @@ export const Carousel = () => {
   const firstCardWith = items.length > 0 ? carouselRef.current?.querySelector('.card').offsetWidth : 0;
 
   return (
-    <div style={{ maxWidth: '1650px' }} className="wrapper relative w-full m-auto flex items-center">
+    <div className="wrapper relative w-full flex items-center">
       <svg
         onClick={() => handleArrowClick({ id: 'left' })}
-        className="w-10 h-min cursor-pointer text- fill-zinc-700 hover:fill-zinc-500 mr-6"
+        className="w-10 h-min cursor-pointer fill-zinc-700 hover:fill-zinc-500 mr-6"
         xmlns="http://www.w3.org/2000/svg"
         height="24"
         viewBox="-100 -960 660 960"

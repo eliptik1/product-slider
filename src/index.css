@@ -8,13 +8,7 @@
         padding: 0;
         box-sizing: border-box;
     }
-    #root {
-        padding: 0 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-    }
+
     .wrapper .carousel {
         grid-auto-columns: calc((100% / 4) - 12px);
     }    
@@ -37,19 +31,29 @@
         border: 1px solid rgb(23, 23, 23) ;
     }
 
-    @media screen and (max-width: 1350px) {
+    @media screen and (max-width: 1280px) { /* xl */
         .wrapper .carousel {
              grid-auto-columns: calc((100% / 3) - 9px);
         }
     }
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1024px) { /* lg */
         .wrapper .carousel {
              grid-auto-columns: calc((100% / 2) - 9px);
         }
     }
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 768px) { /* md */ 
         .wrapper .carousel {
              grid-auto-columns: 100%;
         }
     }
+}
+
+@font-face { 
+    font-family: "avenir"; 
+    src: url("./Assets/Fonts/Avenir-Book.ttf"); 
+} 
+
+@font-face { 
+    font-family: "montserrat"; 
+    src: url("./Assets/Fonts/Montserrat-Medium.ttf"); 
 }
