@@ -22,7 +22,21 @@
         scroll-snap-type: none;
         scroll-behavior: auto;
     }
-    
+
+    .circle-border {
+        position: relative;
+    }
+    .circle-border::after {
+        position: absolute;
+        content: "";
+        top: -3px;
+        left: -3px;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        border: 1px solid rgb(23, 23, 23) ;
+    }
+
     @media screen and (max-width: 1350px) {
         .wrapper .carousel {
              grid-auto-columns: calc((100% / 3) - 9px);
