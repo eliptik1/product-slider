@@ -17,14 +17,14 @@ export const CarouselItem = ({item, selectedColor, onColorChange}) => {
                 onClick={() => onColorChange(color)}
                 className={
                     `w-5 h-5 rounded-[50%] mt-5
-                    bg-[${index === 0 ? "#E6CA97" : index === 1 ? "#D9D9D9" : "#E1A4A9" }] 
+                    ${index === 0 ? 'bg-[#E6CA97]' : index === 1 ? 'bg-[#D9D9D9]' : 'bg-[#E1A4A9]'}
                     ${color === selectedColor ? 'circle-border' : ''}`}
                 >
             </button>
         ))}
         </div>
         <div className="mb-10 mt-2">
-            {selectedColor == "yellow" ? "Yellow Gold" : selectedColor == "white" ? "White Gold" : "Rose Gold" }
+            {selectedColor === "yellow" ? "Yellow Gold" : selectedColor === "white" ? "White Gold" : "Rose Gold" }
         </div>
         </div>
     </li>
