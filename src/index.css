@@ -31,6 +31,13 @@
         border: 1px solid rgb(23, 23, 23) ;
     }
 
+    .light-bg {
+        background: linear-gradient(rgb(203, 213, 225) 0%, rgb(244, 245, 245) 70%);
+    }
+    .dark-bg {
+        background: linear-gradient(rgba(30,41,56,1) 0%, rgba(71,87,110,1) 100%);
+    }
+
     @media screen and (max-width: 1280px) { /* xl */
         .wrapper .carousel {
              grid-auto-columns: calc((100% / 3) - 9px);
@@ -56,4 +63,26 @@
 @font-face { 
     font-family: "montserrat"; 
     src: url("./Assets/Fonts/Montserrat-Medium.ttf"); 
+}
+
+/* width */
+::-webkit-scrollbar {
+    height: 13px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgba(150,150,150,1) 0%, rgba(236,236,236,1) 56%, rgba(224,224,224,1) 72%, rgba(195,195,195,1) 100%);
+    border-radius: 25px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #6b6b6b;
+    border-radius: 25px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #828282;
 }

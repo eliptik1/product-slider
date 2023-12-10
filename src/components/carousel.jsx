@@ -140,7 +140,7 @@ export const Carousel = () => {
     <div className="wrapper relative w-full flex items-center">
       <svg
         onClick={() => handleArrowClick({ id: 'left' })}
-        className="w-10 h-min cursor-pointer fill-zinc-700 hover:fill-zinc-500 mr-6"
+        className="w-10 h-min cursor-pointer fill-zinc-700 hover:fill-zinc-500 dark:fill-white hover:dark:fill-gray-300 transition-colors mr-6"
         xmlns="http://www.w3.org/2000/svg"
         height="24"
         viewBox="-100 -960 660 960"
@@ -164,7 +164,7 @@ export const Carousel = () => {
 
       <svg
         onClick={() => handleArrowClick({ id: 'right' })}
-        className="w-10 h-min rotate-180 cursor-pointer fill-zinc-700 hover:fill-zinc-500 ml-6"
+        className="w-10 h-min rotate-180 cursor-pointer fill-zinc-700 hover:fill-zinc-500 dark:fill-white hover:dark:fill-gray-300 transition-colors ml-6"
         xmlns="http://www.w3.org/2000/svg"
         height="24"
         viewBox="-100 -960 660 960"
