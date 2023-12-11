@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/product-slider/static/css/main.bb351f2e.css",
-    "main.js": "/product-slider/static/js/main.35049c2f.js",
+    "main.js": "/product-slider/static/js/main.d890691d.js",
     "static/media/Montserrat-Medium.ttf": "/product-slider/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
     "static/media/Avenir-Book.ttf": "/product-slider/static/media/Avenir-Book.45721c895eddd5961b80.ttf",
     "static/media/EG009-R.jpg": "/product-slider/static/media/EG009-R.0d5682a803a0b154ad67.jpg",
@@ -31,10 +31,10 @@
     "static/media/solar_wallet-money-linear.svg": "/product-slider/static/media/solar_wallet-money-linear.11046c5243695b042be4b95eca45c89a.svg",
     "index.html": "/product-slider/index.html",
     "main.bb351f2e.css.map": "/product-slider/static/css/main.bb351f2e.css.map",
-    "main.35049c2f.js.map": "/product-slider/static/js/main.35049c2f.js.map"
+    "main.d890691d.js.map": "/product-slider/static/js/main.d890691d.js.map"
   },
   "entrypoints": [
     "static/css/main.bb351f2e.css",
-    "static/js/main.35049c2f.js"
+    "static/js/main.d890691d.js"
   ]
 }
