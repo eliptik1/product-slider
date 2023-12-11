@@ -6,6 +6,7 @@ export const Carousel = () => {
   const [startX, setStartX] = useState(0);
   const [startScrollLeft, setStartScrollLeft] = useState(0);
   const [selectedColors, setSelectedColors] = useState({});
+  const [firstCardWith, setFirstCardWidth] = useState(0);
 
   const carouselRef = useRef(null);
 
@@ -38,8 +39,12 @@ export const Carousel = () => {
   };
 
   useEffect(() => {
-    const carousel = carouselRef.current;
+    const handleGetWidth = () => {
+      setFirstCardWidth(carouselRef.current?.querySelector('.card').offsetWidth || 0);
+    };
+    handleGetWidth();
 
+    const carousel = carouselRef.current;
     carousel.addEventListener('mousedown', handleDragStart);
     carousel.addEventListener('mousemove', handleDragging);
     document.addEventListener('mouseup', handleDragStop);
@@ -133,8 +138,6 @@ export const Carousel = () => {
         }
     }
 ]
-
-  const firstCardWith = items.length > 0 ? carouselRef.current?.querySelector('.card').offsetWidth : 0;
 
   return (
     <div className="wrapper relative w-full flex items-center">
